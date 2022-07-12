@@ -17,7 +17,7 @@ if __name__ == "__main__":
     carro2.brand    = "Fiat"
     carro2.driver   = "Alexander"
     carro2.passager = 4
+    carro2.brand    = "Toyota"
     
     print(vars(carro))
     print(vars(carro2))
-        
