@@ -7,6 +7,7 @@ class Account :
     dacument    = int
     mail        = str
     
+    #metodo constructor en Python
     def __init__(self, name, dacument):
         self.name       = name
         self.dacument   = dacument
