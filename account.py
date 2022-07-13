@@ -1,12 +1,13 @@
 from codecs import getencoder
-from curses import ACS_GEQUAL
+import mailbox
+from this import s
 from unicodedata import name
 
 
 class Account :
     id          = int
     name        = str
-    dacument    = int
+    document    = int
     mail        = str
     password    = str
     gender      = str
@@ -14,6 +15,11 @@ class Account :
     age         = int
     
     #metodo constructor en Python
-    def __init__(self, name, dacument,  mail, password, gender, numberCell, age):
+    def __init__(self, name, document, mail, password, gender, numberCell, age):
         self.name       = name
-        self.dacument   = dacument
+        self.document   = document
+        self.mail       = mail
+        self.password   = password
+        self.gender     = gender
+        self.numberCell = numberCell
+        self.age        = age
