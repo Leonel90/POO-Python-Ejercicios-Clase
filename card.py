@@ -1,9 +1,9 @@
-from datetime import date
-from venv import CORE_VENV_DEPS
+from bank import Bank
 
-
-class Card:
-    id         = int
-    number     = int
-    cvv        = int
-    date       = str
+class Card(Bank):
+    cardNUmber      = int
+    identification  = int
+    cardDate        = int
+    
+    def __init__(self, id, ammount, date, bank, identification, numberAccount):
+        super().__init__(id, ammount, date, bank, identification, numberAccount)

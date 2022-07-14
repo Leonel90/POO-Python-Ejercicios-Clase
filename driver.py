@@ -1,6 +1,7 @@
+from account import Account
 class Driver(Account):
-    id      = int
-    license = str
+    idDriver    = int
+    license     = str
     
     
     def __init__(self, id, name, dacument, mail, password, gender, numberCell, age):
