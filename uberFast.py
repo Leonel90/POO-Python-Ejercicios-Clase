@@ -10,6 +10,5 @@ class UberFlash(Car):
         super().__init__(license, driver)
         self.brand      = brand
         self.model      = model
-        self.model      = model
         self.loadSize   = loadSize
         self.loadWeigth = loadWeigth

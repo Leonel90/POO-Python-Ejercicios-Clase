@@ -1,6 +1,3 @@
-from cash import Cash
-
-
 class Payment:
     id              = int
    # id      = Cash("","")

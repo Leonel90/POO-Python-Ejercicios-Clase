@@ -1,8 +1,6 @@
 from payment import Payment
 
 class Cash(Payment):
-    id  = int
     
-    def __init__(self, ammount, id):
-        super.__init__(id, ammount)
-        self.id = id
+    def __init__(self, id, date, ammount, typePayment):
+        super.__init__(id, ammount, date, typePayment)
