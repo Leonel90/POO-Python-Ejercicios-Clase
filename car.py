@@ -1,8 +1,8 @@
-from lib2to3.pgen2 import driver
+from pyexpat import model
 from account import Account
 
 class Car :
-    id          = str
+    id          = int
     # Tipo de dato cambiado en base a Account (primero importar la informacion)
     driver      = Account("","")
     passager    = str
