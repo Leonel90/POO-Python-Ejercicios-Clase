@@ -25,15 +25,3 @@ if __name__ == "__main__":
     pagoDinero = Cash("1", "14-7-2022", "20", "Cash")
     print(vars(pagoDinero))
     print(pagoDinero.date)
-    
-   # uberX = UberX("PCC-12345", Account("Manuelita", "5555555555"), "Chevrolet", "Spark")
-    #print(vars(uberX))
-    
-    
-    #uberConfort = UberConfort("pjk-4578", Account("José", "1234569873", ""), "Dodge", "Cuero", "6")
-    #print(vars(uberConfort))
-    #print(vars(uberConfort.driver))
-    
-    #pagoDinero = Cash("1", "14-07-2022", "20", "Cash")
-    #print(vars(pagoDinero))
-    #print(pagoDinero.date)
